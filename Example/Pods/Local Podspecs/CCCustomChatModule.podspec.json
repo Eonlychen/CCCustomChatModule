@@ -1,9 +1,9 @@
 {
   "name": "CCCustomChatModule",
   "version": "0.1.0",
-  "summary": "A short description of CCCustomChatModule.",
+  "summary": "自用的IM",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/eonly_chen@163.com/CCCustomChatModule",
+  "homepage": "https://github.com/Eonlychen/CCCustomChatModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "eonly_chen@163.com": "eonly_chen@163.com"
   },
   "source": {
-    "git": "https://github.com/eonly_chen@163.com/CCCustomChatModule.git",
+    "git": "https://github.com/Eonlychen/CCCustomChatModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
