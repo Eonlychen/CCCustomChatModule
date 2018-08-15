@@ -32,11 +32,11 @@ s.homepage         = 'https://github.com/Eonlychen/CCCustomChatModule'
 
   s.source_files = 'CCCustomChatModule/Classes/**/*'
   
-  # s.resource_bundles = {
+  #s.resource_bundles = {
   #   'CCCustomChatModule' => ['CCCustomChatModule/Assets/*.png']
-  # }
+  #}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'CCCustomChatModule/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking'
 end

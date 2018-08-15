@@ -7,6 +7,7 @@
 //
 
 #import "CCViewController.h"
+#import "CCCustomChatModule-Prefix.pch"
 
 @interface CCViewController ()
 
