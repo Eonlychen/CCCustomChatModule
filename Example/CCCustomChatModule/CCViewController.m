@@ -7,7 +7,7 @@
 //
 
 #import "CCViewController.h"
-#import "CCCustomChatModule-Prefix.pch"
+#import "CCButton.h"
 
 @interface CCViewController ()
 
@@ -18,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CCButton *testButton = [[CCButton alloc] initWithFrame:CGRectMake(50, 50, 50, 50)];
+    
+
 }
 
 - (void)didReceiveMemoryWarning

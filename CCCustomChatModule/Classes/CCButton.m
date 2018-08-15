@@ -19,12 +19,12 @@
     // Drawing code
 }
 */
--(void)addCCButtonToView:(UIView *)view action:(void (^)(void))action
+
+-(void)addAction:(void (^)(void))action
 {
-    UIButton *testButton = [[UIButton alloc] initWithFrame:CGRectMake(50, 50, 50, 50)];
-    testButton.backgroundColor = [UIColor redColor];
-    [testButton addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-    [view addSubview:testButton];
+    self.backgroundColor = [UIColor redColor];
+    [self addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+
     self.ClickBlock = action;
 }
 - (void)click:(UIButton *)sender {

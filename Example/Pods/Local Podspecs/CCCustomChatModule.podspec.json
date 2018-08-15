@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CCCustomChatModule/Classes/**/*"
+  "source_files": "CCCustomChatModule/Classes/**/*",
+  "public_header_files": "CCCustomChatModule/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

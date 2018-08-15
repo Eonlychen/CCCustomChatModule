@@ -9,6 +9,6 @@
 
 @interface CCButton : UIButton
 
--(void)addCCButtonToView:(UIView *)view action:(void (^)(void))action;
+-(void)addAction:(void (^)(void))action;
 
 @end
