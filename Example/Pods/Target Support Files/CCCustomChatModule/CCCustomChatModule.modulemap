@@ -1,0 +1,6 @@
+framework module CCCustomChatModule {
+  umbrella header "CCCustomChatModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
